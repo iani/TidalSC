@@ -1,0 +1,22 @@
+#+title: Readme
+
+土  7  6 2025 21:38
+
+Exploring / remaking TidalCycles in SuperCollider
+
+First steps: Scheduling and un-scheduling a full tidal cycle pattern while it is running, at any point.
+
+Use absolute time with a Routine (fork).
+Not TempoClock.
+
+Figure out how to replace unscheduled events with new ones, and continue with scheduling the next due event during the cycle, when replacing the entire pattern.
+
+For this,
+
+- use absolute time: Clock.seconds.
+- calculate the absolute time of all events in the pattern.
+- Find the next event, i.e. the next event whose absolute time is greater than Clock.seconds.
+- Schedule the next event at event.abstime - Clock.seconds
+- continue with scheduling all events till end of cycle
+
+Using a class to implement this.

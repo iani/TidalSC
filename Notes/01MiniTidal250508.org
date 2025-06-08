@@ -1,0 +1,26 @@
+
+* Source 1: Tidal Club - weeks 1-4 video tutorials by Alex McLean.
+
+Tidal Club - weeks 1-4
+https://www.youtube.com/playlist?list=PL2lW1zNIIwj3bDkh-Y3LUGDuRcoUigoDs
+
+* Source 2: tidal cycles documentation. Reference section
+
+https://tidalcycles.org/docs/reference/even-more
+
+* Contents - source 1
+** Starting and stopping patterns
+** Mini-notation
+** Patterning effects
+** Manipulating time
+** Combining patterns with arithmetic
+** The 'every' function
+** cut vs. legato
+** slice and splice
+** chop and striate
+
+[TidalClub] week 3 lesson 4 - chop and striate
+
+** continuous functions (sine, square, saw...)
+** random marathon: rand, irand, mininotation ...
+** randcat, stripe, degrade, sometimes
