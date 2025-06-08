@@ -4,7 +4,9 @@
 
 Exploring / remaking TidalCycles in SuperCollider
 
-First steps: Scheduling and un-scheduling a full tidal cycle pattern while it is running, at any point.
+/First steps: Scheduling and un-scheduling a full tidal cycle pattern while it is running, at any point./
+
+/This is only a short preliminary study, and is incomplete./
 
 Use absolute time with a Routine (fork).
 Not TempoClock.
