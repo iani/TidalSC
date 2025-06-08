@@ -4,6 +4,7 @@
 
 Exploring / remaking TidalCycles in SuperCollider
 
+* Part 1: Scheduling events in a cycle
 /First steps: Scheduling and un-scheduling a full tidal cycle pattern while it is running, at any point./
 
 /This is only a short preliminary study, and is incomplete./
@@ -13,12 +14,14 @@ Not TempoClock.
 
 Figure out how to replace unscheduled events with new ones, and continue with scheduling the next due event during the cycle, when replacing the entire pattern.
 
-For this,
-
-- use absolute time: Clock.seconds.
-- calculate the absolute time of all events in the pattern.
+- Use absolute time: Clock.seconds.
+- Calculate the absolute time of all events in the pattern.
 - Find the next event, i.e. the next event whose absolute time is greater than Clock.seconds.
 - Schedule the next event at event.abstime - Clock.seconds
-- continue with scheduling all events till end of cycle
+- Continue with scheduling all events till end of cycle
 
-Using a class to implement this.
+Using class =TidalCycle= to implement this.
+
+* Part 2 Parsing Tidal syntax, specifically mini-notation
+
+Class TidalParser is a first draft of how to parse TidalCycles mini-notation.  (Written by Cursor AI of cursor.com, contains many mistakes, basically useful only as a starting point for writing a parser.)
